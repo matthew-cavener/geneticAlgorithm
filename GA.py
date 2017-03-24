@@ -12,7 +12,7 @@ from random import randint
 startTime = default_timer()
 print('\n\n\n')
 
-targetString = 'This is the target string. The quick Brown Fox jumps over the lazy yellow dog. I do not really think that is the right sentence, but I am too lazy too look it up, and really just needed some character so solve for.'
+targetString = 'This is the target string. It contains enough characters to take a reasonable amount of time to solve, while still displaying the process a genetic algorithm goes through.'
 genomeLength = len(targetString)
 populationSize = 500
 tournamentSize = 5
